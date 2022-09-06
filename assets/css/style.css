@@ -82,6 +82,10 @@ a:hover {
 	color: #fff;
 }
 
+.contact a {
+	color: #fff;
+}
+
 .container {
 	padding: 15px;
 	display: flex;
@@ -117,7 +121,7 @@ a:hover {
 	font-weight: bold;
 }
 
-.contact .card-title, .contact a {
+.contact .card-title {
 	color: #fff
 }
 
