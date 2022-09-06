@@ -117,7 +117,7 @@ a:hover {
 	font-weight: bold;
 }
 
-.contact .card-title {
+.contact .card-title, .contact a {
 	color: #fff
 }
 
@@ -165,6 +165,10 @@ a:hover {
 
 .content-item.active {
 	display: block;
+}
+
+.menu-item.active {
+	font-weight: bold;
 }
 
 .list-icon {
@@ -257,11 +261,10 @@ a:hover {
 		left: 0;
 		background-color: #335384;
 		width: 100%;
-		padding: 0 15px;
 	}
 
 	#nav-menu>.menu-item {
-		padding: 10px 0;
+		padding: 10px 25px;
 		border-top: 1px solid #fff;
 		font-size: large;
 	}
